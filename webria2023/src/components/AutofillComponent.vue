@@ -1,6 +1,6 @@
 <template>
   <div>
-    <input type="text" v-model="searchTerm" @input="fetchResults" />
+    <input class="form-control" style="max-width: 500px; margin-left: 390px;" type="text" v-model="searchTerm" @input="fetchResults" />
     <ul v-show="showResults" class="search-results">
       <li v-for="result in searchResults" :key="result.name.common" @click="handleResultClick(result)">
         {{ result.name.common }}
@@ -45,7 +45,7 @@ export default {
 };
 </script>
 
-<style>
+<style scoped>
 .search-results {
   list-style: none;
   padding: 5px;
