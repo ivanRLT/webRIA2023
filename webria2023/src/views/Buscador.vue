@@ -14,5 +14,5 @@ import AutofillComponent from '@/components/AutofillComponent.vue';
     buscador: AutofillComponent
   },
 })
-export default class HomeView extends Vue {}
+export default class Buscador extends Vue {}
 </script>

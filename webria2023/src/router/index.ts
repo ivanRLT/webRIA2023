@@ -1,6 +1,7 @@
 import { createRouter, createWebHistory, RouteRecordRaw } from 'vue-router'
 import HomeView from '../views/HomeView.vue'
 import Buscador from '../views/Buscador.vue'
+import VistaPais from '../views/VistaPais.vue'
 
 const routes: Array<RouteRecordRaw> = [
   {
@@ -10,8 +11,13 @@ const routes: Array<RouteRecordRaw> = [
   },
   {
     path: '/buscador',
-    name: 'Buscador',
+    name: 'buscador',
     component: Buscador
+  },
+  {
+    path: '/vista/:id',
+    name: 'vista',
+    component: VistaPais
   }
 ]
 
