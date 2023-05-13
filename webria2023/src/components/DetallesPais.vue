@@ -20,7 +20,7 @@
                       <p>Viento: {{ weather.viento }} km/h</p>
                     </div>
                     <div class="col-md-6">
-                      <img :src="weather.icon" alt="Icono del tiempo"
+                      <img :src="weather.icon"
                         style="height: 130px; width: auto; margin-left: 50px;">
                     </div>
                   </div>
@@ -29,16 +29,17 @@
             </div>
             <div class="col-md-6">
               <div class="row">
-                <div class="col-md-6">
+                <div class="col-md-6" style="margin-bottom: 30px;">
                   <h4>Bandera nacional:</h4>
-                  <img :src="country?.flags?.png" alt="Icono del tiempo"
+                  <img :src="country?.flags?.png"
                     style="height: 200px; width: auto;">
                 </div>
-                <div class="col-md-6">
+                <div class="col-md-6" style="margin-bottom: 30px;">
                   <h4 style="margin-left: 50px;">Escudo de armas:</h4>
-                  <img :src="country?.coatOfArms?.png" alt="Icono del tiempo"
+                  <img :src="country?.coatOfArms?.png"
                     style="height: 200px; width: auto; margin-left: 120px;">
                 </div>
+                <h5>Descripcion bandera: {{ country?.flags?.alt }}</h5>
               </div>
             </div>
           </div>

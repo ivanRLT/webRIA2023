@@ -18,13 +18,13 @@
     background-color: #81c7d3; /* Color suave 1 */
   }
   25% {
-    background-color: #71aaae; /* Color suave 2 */
+    background-color: #717bae; /* Color suave 2 */
   }
   50% {
-    background-color: #4d8488; /* Color suave 3 */
+    background-color: #644d88; /* Color suave 3 */
   }
   75% {
-    background-color: #71aaae; /* Color suave 4 */
+    background-color: #717bae; /* Color suave 4 */
   }
   100% {
     background-color: #81c7d3; /* Color suave 5 */
