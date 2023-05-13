@@ -7,7 +7,6 @@
       </div>
     </nav>
       <fondo-animado /> 
-      <h1 class="busTitulo">Detalles Pais</h1>
       <detalles></detalles>
     </div>
   </template>
@@ -35,7 +34,6 @@
   text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
 }
 .busTitulo {
-
   font-size: 50px;
   color:white;
   text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
