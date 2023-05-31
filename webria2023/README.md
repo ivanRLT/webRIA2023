@@ -41,3 +41,11 @@ npm run build
 - En nuestro caso decidimos usar la primera opción en esta lista (REST Countries) debido a que nos pareció más completa que las demás. Un factor que influyo mucho en la elección fue la facilidad y documentación que encontramos en el momento de la decisión.
 Es una API robusta y en etapa de pruebas no tuvimos ningún tipo de problema tanto en las request que hicimos para probarla como en lo que nos respondió para cada una.
 - Además, decidimos incluir el uso de WeatherAPI para solucionar la obtención de datos del clima, la selección de esta API estuvo principalmente en la facilidad para utilizarla, así como que su versión gratuita realmente lo era, ya que otras opciones solicitaban un método de pago.
+
+
+## Justificacion de elecciones de Usabilidad
+- En cuanto a usabilidad decidimos utilizar un fondo animado en gradiente con colores suaves con una velocidad de cambio lenta ya que complementa el diseño simplista de la pagina y aporta al diseño transparente del logo en la pagina principal.
+- En la pagina de busqueda aplicamos un diseño con autocoplete para poder aistir al usuario en busquedas de paises con nombres complejos o dificiles de deletrear,ayuda con problemas de ambiguedad y es preferible a un dropdown, ya que este ultimo sería inconveniente dado la cantidad de opciones a desplegar.
+- Utilizamos cartas para presentar la informacion del pais en manera concisa y compacta.
+- En el header de la aplicacion agregamos un boton de "Home" para facilitar la navegacion por el sitio y establecer un loop de usabilidad.
+- Por ultimo el boton de aleatorio provee una forma rápida de utilizar el sitio.
